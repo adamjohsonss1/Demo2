@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="16" tests="17" time="3.739">
-    <testcase classname="Application Login" name="Home page default login" time="0.059">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="16" tests="17" time="4.01">
+    <testcase classname="Application Login" name="Home page default login" time="0.057">
         <skipped>
             <![CDATA[Given Validate the browser..................................................undefined
 When Browser is triggered...................................................undefined
@@ -12,7 +12,7 @@ And Cards displayed are "true"..............................................unde
 ]]>
         </skipped>
     </testcase>
-    <testcase classname="Application Login" name="Home page default login 2" time="0.009">
+    <testcase classname="Application Login" name="Home page default login 2" time="0.006">
         <skipped>
             <![CDATA[Given Validate the browser..................................................undefined
 When Browser is triggered...................................................undefined
@@ -24,7 +24,7 @@ And Cards displayed are "false".............................................unde
 ]]>
         </skipped>
     </testcase>
-    <testcase classname="Application Login" name="Home page default login 3" time="0.006">
+    <testcase classname="Application Login" name="Home page default login 3" time="0.005">
         <skipped>
             <![CDATA[Given Validate the browser..................................................undefined
 When Browser is triggered...................................................undefined
@@ -36,7 +36,7 @@ And Cards displayed are "false".............................................unde
 ]]>
         </skipped>
     </testcase>
-    <testcase classname="Application Login" name="Home page default login 4" time="0.009">
+    <testcase classname="Application Login" name="Home page default login 4" time="0.008">
         <skipped>
             <![CDATA[Given Validate the browser..................................................undefined
 When Browser is triggered...................................................undefined
@@ -60,7 +60,7 @@ And Cards displayed are "true"..............................................unde
 ]]>
         </skipped>
     </testcase>
-    <testcase classname="Application Login" name="Home page default login 6" time="0.007">
+    <testcase classname="Application Login" name="Home page default login 6" time="0.009">
         <skipped>
             <![CDATA[Given Validate the browser..................................................undefined
 When Browser is triggered...................................................undefined
@@ -72,7 +72,7 @@ And Cards displayed are "true"..............................................unde
 ]]>
         </skipped>
     </testcase>
-    <testcase classname="Application Login" name="Home page default login 7" time="0.006">
+    <testcase classname="Application Login" name="Home page default login 7" time="0.008">
         <skipped>
             <![CDATA[Given Validate the browser..................................................undefined
 When Browser is triggered...................................................undefined
@@ -84,7 +84,7 @@ And Cards displayed are "true"..............................................unde
 ]]>
         </skipped>
     </testcase>
-    <testcase classname="Application Login" name="Home page default login" time="0.006">
+    <testcase classname="Application Login" name="Home page default login" time="0.005">
         <skipped>
             <![CDATA[Given User is on NetBanking landing page....................................undefined
 When User login into application with username "jerry" and password "5555"..undefined
@@ -93,7 +93,7 @@ And Cards displayed are "true"..............................................unde
 ]]>
         </skipped>
     </testcase>
-    <testcase classname="Application Login" name="Home page default login 2" time="0.006">
+    <testcase classname="Application Login" name="Home page default login 2" time="0.007">
         <skipped>
             <![CDATA[Given User is on NetBanking landing page....................................undefined
 When User sign up with following details....................................undefined
@@ -102,7 +102,7 @@ And Cards displayed are "false".............................................unde
 ]]>
         </skipped>
     </testcase>
-    <testcase classname="Application Login" name="Home page default login" time="0.006">
+    <testcase classname="Application Login" name="Home page default login" time="0.008">
         <skipped>
             <![CDATA[Given User is on NetBanking landing page....................................undefined
 When User login into application with username "jin" and password "1234"....undefined
@@ -129,7 +129,7 @@ And Cards displayed are "false".............................................unde
 ]]>
         </skipped>
     </testcase>
-    <testcase classname="Application Login" name="Home page default login 4" time="0.007">
+    <testcase classname="Application Login" name="Home page default login 4" time="0.009">
         <skipped>
             <![CDATA[Given User is on NetBanking landing page....................................undefined
 When User login in to application with username user1 and password pass1....undefined
@@ -147,7 +147,7 @@ And Cards displayed are "true"..............................................unde
 ]]>
         </skipped>
     </testcase>
-    <testcase classname="Application Login" name="Home page default login 6" time="0.005">
+    <testcase classname="Application Login" name="Home page default login 6" time="0.004">
         <skipped>
             <![CDATA[Given User is on NetBanking landing page....................................undefined
 When User login in to application with username user3 and password pass3....undefined
@@ -165,7 +165,7 @@ And Cards displayed are "true"..............................................unde
 ]]>
         </skipped>
     </testcase>
-    <testcase classname="Application Login" name="Positive test validating Login" time="3.376">
+    <testcase classname="Application Login" name="Positive test validating Login" time="3.641">
         <system-out>
             <![CDATA[Given Initialize the browser with Chrome....................................passed
 And Navigate to "PolicyCenter"..............................................passed

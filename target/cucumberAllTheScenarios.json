@@ -39,7 +39,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-15T01:06:50.922Z",
+        "start_timestamp": "2020-11-15T01:18:30.445Z",
         "line": 11,
         "name": "Home page default login",
         "description": "",
@@ -130,7 +130,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-15T01:06:50.995Z",
+        "start_timestamp": "2020-11-15T01:18:30.515Z",
         "line": 18,
         "name": "Home page default login",
         "description": "",
@@ -224,7 +224,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-15T01:06:51.012Z",
+        "start_timestamp": "2020-11-15T01:18:30.529Z",
         "line": 25,
         "name": "Home page default login",
         "description": "",
@@ -338,7 +338,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-15T01:06:51.024Z",
+        "start_timestamp": "2020-11-15T01:18:30.539Z",
         "line": 42,
         "name": "Home page default login",
         "description": "",
@@ -426,7 +426,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-15T01:06:51.038Z",
+        "start_timestamp": "2020-11-15T01:18:30.554Z",
         "line": 43,
         "name": "Home page default login",
         "description": "",
@@ -514,7 +514,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-15T01:06:51.050Z",
+        "start_timestamp": "2020-11-15T01:18:30.564Z",
         "line": 44,
         "name": "Home page default login",
         "description": "",
@@ -602,7 +602,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-15T01:06:51.062Z",
+        "start_timestamp": "2020-11-15T01:18:30.578Z",
         "line": 45,
         "name": "Home page default login",
         "description": "",
@@ -674,7 +674,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-11-15T01:06:51.073Z",
+        "start_timestamp": "2020-11-15T01:18:30.590Z",
         "line": 4,
         "name": "Home page default login",
         "description": "",
@@ -726,11 +726,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-15T01:06:51.085Z",
+        "start_timestamp": "2020-11-15T01:18:30.602Z",
         "before": [
           {
             "result": {
-              "duration": 927000,
+              "duration": 1311000,
               "status": "passed"
             },
             "match": {
@@ -745,7 +745,7 @@
         "after": [
           {
             "result": {
-              "duration": 74000,
+              "duration": 76000,
               "status": "passed"
             },
             "match": {
@@ -831,11 +831,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-11-15T01:06:51.096Z",
+        "start_timestamp": "2020-11-15T01:18:30.614Z",
         "before": [
           {
             "result": {
-              "duration": 78000,
+              "duration": 74000,
               "status": "passed"
             },
             "match": {
@@ -850,7 +850,7 @@
         "after": [
           {
             "result": {
-              "duration": 43000,
+              "duration": 81000,
               "status": "passed"
             },
             "match": {
@@ -908,7 +908,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-15T01:06:51.105Z",
+        "start_timestamp": "2020-11-15T01:18:30.628Z",
         "line": 12,
         "name": "Home page default login",
         "description": "",
@@ -966,7 +966,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-15T01:06:51.114Z",
+        "start_timestamp": "2020-11-15T01:18:30.636Z",
         "line": 19,
         "name": "Home page default login",
         "description": "",
@@ -1044,7 +1044,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-15T01:06:51.122Z",
+        "start_timestamp": "2020-11-15T01:18:30.645Z",
         "line": 36,
         "name": "Home page default login",
         "description": "",
@@ -1096,7 +1096,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-15T01:06:51.134Z",
+        "start_timestamp": "2020-11-15T01:18:30.659Z",
         "line": 37,
         "name": "Home page default login",
         "description": "",
@@ -1148,7 +1148,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-15T01:06:51.142Z",
+        "start_timestamp": "2020-11-15T01:18:30.670Z",
         "line": 38,
         "name": "Home page default login",
         "description": "",
@@ -1200,7 +1200,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-15T01:06:51.151Z",
+        "start_timestamp": "2020-11-15T01:18:30.678Z",
         "line": 39,
         "name": "Home page default login",
         "description": "",
@@ -1272,7 +1272,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-11-15T01:06:51.160Z",
+        "start_timestamp": "2020-11-15T01:18:30.688Z",
         "line": 2,
         "name": "Positive test validating Login",
         "description": "",
@@ -1282,7 +1282,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3286616000,
+              "duration": 3551570000,
               "status": "passed"
             },
             "line": 3,
@@ -1294,7 +1294,7 @@
           },
           {
             "result": {
-              "duration": 552000,
+              "duration": 530000,
               "status": "passed"
             },
             "line": 4,
@@ -1312,7 +1312,7 @@
           },
           {
             "result": {
-              "duration": 611000,
+              "duration": 442000,
               "status": "passed"
             },
             "line": 5,
@@ -1334,7 +1334,7 @@
           },
           {
             "result": {
-              "duration": 84503000,
+              "duration": 85204000,
               "status": "passed"
             },
             "line": 6,
