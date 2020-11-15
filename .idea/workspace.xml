@@ -2,13 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39b019cb-de3e-4647-8da7-fce1fafa8776" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/CucumberOptions/TestRunner1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Automation2-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Automation2-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumberAllTheScenarios.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumberAllTheScenarios.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumberAllTheScenarios/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumberAllTheScenarios/report.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cukes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/cukes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/CucumberOptions.TestRunner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/CucumberOptions.TestRunner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/CucumberOptions.TestRunner4$.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/CucumberOptions.TestRunner4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-CucumberOptions.TestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-CucumberOptions.TestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-CucumberOptions.TestRunner4$.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-CucumberOptions.TestRunner4.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/StepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinitions/StepDefinitions.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -170,37 +178,37 @@
     </state>
     <state x="103" y="103" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.836@0.23.1440.836" timestamp="1605311774954" />
     <state x="103" y="103" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.837@0.23.1440.837" timestamp="1605313183740" />
-    <state width="1235" height="230" key="GridCell.Tab.0.bottom" timestamp="1605313191363">
-      <screen x="0" y="23" width="1440" height="836" />
+    <state width="1235" height="230" key="GridCell.Tab.0.bottom" timestamp="1605402374889">
+      <screen x="0" y="23" width="1440" height="834" />
     </state>
     <state width="1398" height="228" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1605227126057" />
-    <state width="1398" height="230" key="GridCell.Tab.0.bottom/0.23.1440.834@0.23.1440.834" timestamp="1605306671572" />
+    <state width="1235" height="230" key="GridCell.Tab.0.bottom/0.23.1440.834@0.23.1440.834" timestamp="1605402374889" />
     <state width="1398" height="230" key="GridCell.Tab.0.bottom/0.23.1440.835@0.23.1440.835" timestamp="1605307126162" />
-    <state width="1235" height="230" key="GridCell.Tab.0.bottom/0.23.1440.836@0.23.1440.836" timestamp="1605313191363" />
+    <state width="1235" height="230" key="GridCell.Tab.0.bottom/0.23.1440.836@0.23.1440.836" timestamp="1605333535778" />
     <state width="1398" height="230" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1605307473940" />
-    <state width="1235" height="230" key="GridCell.Tab.0.center" timestamp="1605313191362">
-      <screen x="0" y="23" width="1440" height="836" />
+    <state width="1235" height="230" key="GridCell.Tab.0.center" timestamp="1605402374888">
+      <screen x="0" y="23" width="1440" height="834" />
     </state>
     <state width="1398" height="228" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1605227126056" />
-    <state width="1398" height="230" key="GridCell.Tab.0.center/0.23.1440.834@0.23.1440.834" timestamp="1605306671571" />
+    <state width="1235" height="230" key="GridCell.Tab.0.center/0.23.1440.834@0.23.1440.834" timestamp="1605402374888" />
     <state width="1398" height="230" key="GridCell.Tab.0.center/0.23.1440.835@0.23.1440.835" timestamp="1605307126161" />
-    <state width="1235" height="230" key="GridCell.Tab.0.center/0.23.1440.836@0.23.1440.836" timestamp="1605313191362" />
+    <state width="1235" height="230" key="GridCell.Tab.0.center/0.23.1440.836@0.23.1440.836" timestamp="1605333535776" />
     <state width="1398" height="230" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1605307473940" />
-    <state width="1235" height="230" key="GridCell.Tab.0.left" timestamp="1605313191361">
-      <screen x="0" y="23" width="1440" height="836" />
+    <state width="1235" height="230" key="GridCell.Tab.0.left" timestamp="1605402374887">
+      <screen x="0" y="23" width="1440" height="834" />
     </state>
     <state width="1398" height="228" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1605227126055" />
-    <state width="1398" height="230" key="GridCell.Tab.0.left/0.23.1440.834@0.23.1440.834" timestamp="1605306671571" />
+    <state width="1235" height="230" key="GridCell.Tab.0.left/0.23.1440.834@0.23.1440.834" timestamp="1605402374887" />
     <state width="1398" height="230" key="GridCell.Tab.0.left/0.23.1440.835@0.23.1440.835" timestamp="1605307126161" />
-    <state width="1235" height="230" key="GridCell.Tab.0.left/0.23.1440.836@0.23.1440.836" timestamp="1605313191361" />
+    <state width="1235" height="230" key="GridCell.Tab.0.left/0.23.1440.836@0.23.1440.836" timestamp="1605333535776" />
     <state width="1398" height="230" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1605307473939" />
-    <state width="1235" height="230" key="GridCell.Tab.0.right" timestamp="1605313191362">
-      <screen x="0" y="23" width="1440" height="836" />
+    <state width="1235" height="230" key="GridCell.Tab.0.right" timestamp="1605402374888">
+      <screen x="0" y="23" width="1440" height="834" />
     </state>
     <state width="1398" height="228" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1605227126057" />
-    <state width="1398" height="230" key="GridCell.Tab.0.right/0.23.1440.834@0.23.1440.834" timestamp="1605306671572" />
+    <state width="1235" height="230" key="GridCell.Tab.0.right/0.23.1440.834@0.23.1440.834" timestamp="1605402374888" />
     <state width="1398" height="230" key="GridCell.Tab.0.right/0.23.1440.835@0.23.1440.835" timestamp="1605307126162" />
-    <state width="1235" height="230" key="GridCell.Tab.0.right/0.23.1440.836@0.23.1440.836" timestamp="1605313191362" />
+    <state width="1235" height="230" key="GridCell.Tab.0.right/0.23.1440.836@0.23.1440.836" timestamp="1605333535777" />
     <state width="1398" height="230" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1605307473940" />
   </component>
 </project>

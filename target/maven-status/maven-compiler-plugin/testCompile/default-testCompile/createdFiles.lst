@@ -1,7 +1,8 @@
-CucumberOptions/TestRunner2$SmokeTest$.class
-CucumberOptions/TestRunner3$MobileTest$WithHOOK$.class
 CucumberOptions/TestRunner.class
-CucumberOptions/TestRunner3$RegTest$.class
+CucumberOptions/TestRunner3$MobileTest$WithHOOK.class
 stepDefinitions/Hooks.class
-CucumberOptions/TestRunner4$SmokeTest$RegTest$A.class
+CucumberOptions/TestRunner2$SmokeTest.class
+CucumberOptions/TestRunner1.class
+CucumberOptions/TestRunner3$RegTest.class
+CucumberOptions/TestRunner4$SmokeTest$RegTest.class
 stepDefinitions/StepDefinitions.class

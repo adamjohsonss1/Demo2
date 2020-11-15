@@ -111,7 +111,7 @@ WebDriver driver = null;
     @Then("Verify that User is successfully logged in")
     public void verify_that_User_is_successfully_logged_in() {
         // Write code here that turns the phrase above into concrete actions
-
+        driver.quit();
     }
 
 

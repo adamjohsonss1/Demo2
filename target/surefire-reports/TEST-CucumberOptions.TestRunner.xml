@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="16" failures="0" name="CucumberOptions.TestRunner" time="0.312" errors="0" skipped="0">
+<testsuite tests="17" failures="0" name="CucumberOptions.TestRunner" time="3.713" errors="0" skipped="16">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.5+10-LTS"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.5.jdk/Contents/Home/lib"/>
     <property name="gopherProxySet" value="false"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/saidahmad/IdeaProjects/Automation2"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/saidahmad/IdeaProjects/Automation2_copy"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/saidahmad/IdeaProjects/Automation2"/>
+    <property name="user.dir" value="/Users/saidahmad/IdeaProjects/Automation2_copy"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="11.0.5+10-LTS"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
@@ -45,7 +45,7 @@
     <property name="java.class.path" value="/Users/saidahmad/Documents/work/apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.5.jdk/Contents/Home"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -64,20 +64,211 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="Application Login" name="Home page default login" time="0.164"/>
-  <testcase classname="Application Login" name="Home page default login" time="0.01"/>
-  <testcase classname="Application Login" name="Home page default login" time="0.014"/>
-  <testcase classname="Application Login" name="Home page default login" time="0.011"/>
-  <testcase classname="Application Login" name="Home page default login" time="0.012"/>
-  <testcase classname="Application Login" name="Home page default login" time="0.008"/>
-  <testcase classname="Application Login" name="Home page default login" time="0.009"/>
-  <testcase classname="Application Login" name="Home page default login" time="0.01"/>
-  <testcase classname="Application Login" name="Home page default login" time="0.009"/>
-  <testcase classname="Application Login" name="Home page default login" time="0.015"/>
-  <testcase classname="Application Login" name="Home page default login" time="0.008"/>
-  <testcase classname="Application Login" name="Home page default login" time="0.007"/>
-  <testcase classname="Application Login" name="Home page default login" time="0.012"/>
-  <testcase classname="Application Login" name="Home page default login" time="0.007"/>
-  <testcase classname="Application Login" name="Home page default login" time="0.006"/>
-  <testcase classname="Application Login" name="Home page default login" time="0.01"/>
+  <testcase classname="Application Login" name="Home page default login" time="0.168">
+    <skipped/>
+    <system-out>
+@sprint @RegTest
+Scenario: Home page default login                                          &amp;#27;[90m# src/test/resources/features/LoginProfile.feature:11&amp;#27;[0m
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mValidate the browser&amp;#27;[0m                                               &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mBrowser is triggered&amp;#27;[0m                                                &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mcheck if browser is displayed&amp;#27;[0m                                       &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mUser is on NetBanking landing page&amp;#27;[0m                                 &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mUser login into application with username &quot;jin&quot; and password &quot;1234&quot;&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mHome page is populated&amp;#27;[0m                                              &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mCards displayed are &quot;true&quot;&amp;#27;[0m                                           &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+    <system-err>Nov 14, 2020 6:06:50 PM io.cucumber.junit.Cucumber &lt;init&gt;
+WARNING: By default Cucumber is running in --non-strict mode.
+This default will change to --strict and --non-strict will be removed.
+You can use --strict or @CucumberOptions(strict = true) to suppress this warning
+</system-err>
+  </testcase>
+  <testcase classname="Application Login" name="Home page default login" time="0.018">
+    <skipped/>
+    <system-out>
+@sprint @SmokeTest @SanityTest
+Scenario: Home page default login                                           &amp;#27;[90m# src/test/resources/features/LoginProfile.feature:18&amp;#27;[0m
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mValidate the browser&amp;#27;[0m                                                &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mBrowser is triggered&amp;#27;[0m                                                 &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mcheck if browser is displayed&amp;#27;[0m                                        &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mUser is on NetBanking landing page&amp;#27;[0m                                  &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mUser login into application with username &quot;john&quot; and password &quot;4321&quot;&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mHome page is populated&amp;#27;[0m                                               &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mCards displayed are &quot;false&quot;&amp;#27;[0m                                           &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Application Login" name="Home page default login" time="0.014">
+    <skipped/>
+    <system-out>
+@sprint @SanityTest @sprint3
+Scenario: Home page default login          &amp;#27;[90m# src/test/resources/features/LoginProfile.feature:25&amp;#27;[0m
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mValidate the browser&amp;#27;[0m               &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mBrowser is triggered&amp;#27;[0m                &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mcheck if browser is displayed&amp;#27;[0m       &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mUser is on NetBanking landing page&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mUser sign up with following details&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mHome page is populated&amp;#27;[0m              &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mCards displayed are &quot;false&quot;&amp;#27;[0m          &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Application Login" name="Home page default login" time="0.015">
+    <skipped/>
+    <system-out>
+@sprint
+Scenario Outline: Home page default login                                  &amp;#27;[90m# src/test/resources/features/LoginProfile.feature:42&amp;#27;[0m
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mValidate the browser&amp;#27;[0m                                               &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mBrowser is triggered&amp;#27;[0m                                                &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mcheck if browser is displayed&amp;#27;[0m                                       &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mUser is on NetBanking landing page&amp;#27;[0m                                 &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mUser login in to application with username user1 and password pass1&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mHome page is populated&amp;#27;[0m                                              &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mCards displayed are &quot;true&quot;&amp;#27;[0m                                           &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Application Login" name="Home page default login" time="0.01">
+    <skipped/>
+    <system-out>
+@sprint
+Scenario Outline: Home page default login                                  &amp;#27;[90m# src/test/resources/features/LoginProfile.feature:43&amp;#27;[0m
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mValidate the browser&amp;#27;[0m                                               &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mBrowser is triggered&amp;#27;[0m                                                &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mcheck if browser is displayed&amp;#27;[0m                                       &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mUser is on NetBanking landing page&amp;#27;[0m                                 &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mUser login in to application with username user2 and password pass2&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mHome page is populated&amp;#27;[0m                                              &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mCards displayed are &quot;true&quot;&amp;#27;[0m                                           &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Application Login" name="Home page default login" time="0.013">
+    <skipped/>
+    <system-out>
+@sprint
+Scenario Outline: Home page default login                                  &amp;#27;[90m# src/test/resources/features/LoginProfile.feature:44&amp;#27;[0m
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mValidate the browser&amp;#27;[0m                                               &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mBrowser is triggered&amp;#27;[0m                                                &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mcheck if browser is displayed&amp;#27;[0m                                       &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mUser is on NetBanking landing page&amp;#27;[0m                                 &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mUser login in to application with username user3 and password pass3&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mHome page is populated&amp;#27;[0m                                              &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mCards displayed are &quot;true&quot;&amp;#27;[0m                                           &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Application Login" name="Home page default login" time="0.011">
+    <skipped/>
+    <system-out>
+@sprint
+Scenario Outline: Home page default login                                  &amp;#27;[90m# src/test/resources/features/LoginProfile.feature:45&amp;#27;[0m
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mValidate the browser&amp;#27;[0m                                               &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mBrowser is triggered&amp;#27;[0m                                                &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mcheck if browser is displayed&amp;#27;[0m                                       &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mUser is on NetBanking landing page&amp;#27;[0m                                 &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mUser login in to application with username user4 and password pass4&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mHome page is populated&amp;#27;[0m                                              &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mCards displayed are &quot;true&quot;&amp;#27;[0m                                           &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Application Login" name="Home page default login" time="0.011">
+    <skipped/>
+    <system-out>
+@SmokeTest
+Scenario: Home page default login                                            &amp;#27;[90m# src/test/resources/features/LoginProfileCopy1.feature:4&amp;#27;[0m
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mUser is on NetBanking landing page&amp;#27;[0m                                   &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mUser login into application with username &quot;jerry&quot; and password &quot;5555&quot;&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mHome page is populated&amp;#27;[0m                                                &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mCards displayed are &quot;true&quot;&amp;#27;[0m                                             &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Application Login" name="Home page default login" time="0.011">
+    <skipped/>
+    <system-out>
+@MobileTest
+Scenario: Home page default login          &amp;#27;[90m# src/test/resources/features/LoginProfileCopy1.feature:11&amp;#27;[0m
+This Before Hook will be triggered before MobileTest Scenarios
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mUser is on NetBanking landing page&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mUser sign up with following details&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mHome page is populated&amp;#27;[0m              &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mCards displayed are &quot;false&quot;&amp;#27;[0m          &amp;#27;[90m# null&amp;#27;[0m
+This After Hook will be triggered after MobileTest Scenarios
+</system-out>
+  </testcase>
+  <testcase classname="Application Login" name="Home page default login" time="0.011">
+    <skipped/>
+    <system-out>
+@sprint3 @MobileTest
+Scenario: Home page default login                                          &amp;#27;[90m# src/test/resources/features/LoginProfileCopy2ToUderstHooks.feature:5&amp;#27;[0m
+This Before Hook will be triggered before MobileTest Scenarios
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mUser is on NetBanking landing page&amp;#27;[0m                                 &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mUser login into application with username &quot;jin&quot; and password &quot;1234&quot;&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mHome page is populated&amp;#27;[0m                                              &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mCards displayed are &quot;true&quot;&amp;#27;[0m                                           &amp;#27;[90m# null&amp;#27;[0m
+This After Hook will be triggered after MobileTest Scenarios
+</system-out>
+  </testcase>
+  <testcase classname="Application Login" name="Home page default login" time="0.007">
+    <skipped/>
+    <system-out>
+@sprint3 @SmokeTest @SanityTest
+Scenario: Home page default login                                           &amp;#27;[90m# src/test/resources/features/LoginProfileCopy2ToUderstHooks.feature:12&amp;#27;[0m
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mUser is on NetBanking landing page&amp;#27;[0m                                  &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mUser login into application with username &quot;john&quot; and password &quot;4321&quot;&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mHome page is populated&amp;#27;[0m                                               &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mCards displayed are &quot;false&quot;&amp;#27;[0m                                           &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Application Login" name="Home page default login" time="0.009">
+    <skipped/>
+    <system-out>
+@sprint3 @SanityTest @sprint3
+Scenario: Home page default login          &amp;#27;[90m# src/test/resources/features/LoginProfileCopy2ToUderstHooks.feature:19&amp;#27;[0m
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mUser is on NetBanking landing page&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mUser sign up with following details&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mHome page is populated&amp;#27;[0m              &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mCards displayed are &quot;false&quot;&amp;#27;[0m          &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Application Login" name="Home page default login" time="0.009">
+    <skipped/>
+    <system-out>
+@sprint3
+Scenario Outline: Home page default login                                  &amp;#27;[90m# src/test/resources/features/LoginProfileCopy2ToUderstHooks.feature:36&amp;#27;[0m
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mUser is on NetBanking landing page&amp;#27;[0m                                 &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mUser login in to application with username user1 and password pass1&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mHome page is populated&amp;#27;[0m                                              &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mCards displayed are &quot;true&quot;&amp;#27;[0m                                           &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Application Login" name="Home page default login" time="0.01">
+    <skipped/>
+    <system-out>
+@sprint3
+Scenario Outline: Home page default login                                  &amp;#27;[90m# src/test/resources/features/LoginProfileCopy2ToUderstHooks.feature:37&amp;#27;[0m
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mUser is on NetBanking landing page&amp;#27;[0m                                 &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mUser login in to application with username user2 and password pass2&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mHome page is populated&amp;#27;[0m                                              &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mCards displayed are &quot;true&quot;&amp;#27;[0m                                           &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Application Login" name="Home page default login" time="0.008">
+    <skipped/>
+    <system-out>
+@sprint3
+Scenario Outline: Home page default login                                  &amp;#27;[90m# src/test/resources/features/LoginProfileCopy2ToUderstHooks.feature:38&amp;#27;[0m
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mUser is on NetBanking landing page&amp;#27;[0m                                 &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mUser login in to application with username user3 and password pass3&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mHome page is populated&amp;#27;[0m                                              &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mCards displayed are &quot;true&quot;&amp;#27;[0m                                           &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Application Login" name="Home page default login" time="0.007">
+    <skipped/>
+    <system-out>
+@sprint3
+Scenario Outline: Home page default login                                  &amp;#27;[90m# src/test/resources/features/LoginProfileCopy2ToUderstHooks.feature:39&amp;#27;[0m
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mUser is on NetBanking landing page&amp;#27;[0m                                 &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mUser login in to application with username user4 and password pass4&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mHome page is populated&amp;#27;[0m                                              &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mCards displayed are &quot;true&quot;&amp;#27;[0m                                           &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Application Login" name="Positive test validating Login" time="3.381"/>
 </testsuite>
