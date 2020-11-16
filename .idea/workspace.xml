@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="39b019cb-de3e-4647-8da7-fce1fafa8776" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumberAllTheScenarios.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumberAllTheScenarios.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cukes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/cukes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/CucumberOptions.TestRunner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/CucumberOptions.TestRunner.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/CucumberOptions.TestRunner1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/CucumberOptions.TestRunner1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-CucumberOptions.TestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-CucumberOptions.TestRunner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-CucumberOptions.TestRunner1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-CucumberOptions.TestRunner1.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
